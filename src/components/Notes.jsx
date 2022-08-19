@@ -38,6 +38,9 @@ function Notes() {
     // if (index === undefined) return;
     // old_data.splice(index, 1);
     // localStorage.setItem("notes", JSON.stringify(old_data));
+    //--
+    // const newNotes = notes.filter((note) => note.id !== id);
+    // setNotes(newNotes);
   };
   return (
     <div className="container">
